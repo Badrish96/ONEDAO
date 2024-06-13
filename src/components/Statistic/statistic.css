@@ -1,0 +1,131 @@
+.statistic {
+    padding: 10px 30px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+}
+
+.statistic_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2e3a59;
+}
+
+.statistic_heading h4 {
+    font-size: 18px;
+}
+
+.date {
+    color: #2e3a59;
+    font-size: 14px;
+}
+
+.left_arrow {
+    margin-right: 10px;
+}
+
+.right_arrow {
+    margin-left: 10px;
+}
+
+.statistic_subheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.statistic_subheading h5 {
+    font-weight: bold;
+    color: #2e3a59;
+    font-size: 16px;
+    margin: 0;
+}
+
+.scores ul {
+    display: flex;
+    align-items: center;
+    color: #2e3a59;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scores li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.scores li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+}
+
+.average::before {
+    color: #3366ff;
+}
+
+.exams::before {
+    color: #00d68f;
+}
+
+.exams {
+    margin-left: 15px;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 1199px) {
+    .statistic {
+        padding: 10px 0px;
+    }
+
+    .statistic_heading h4 {
+        font-size: 16px;
+    }
+
+    .statistic_subheading h5 {
+        font-size: 16px;
+    }
+
+    .scores li {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .statistic_heading h4,
+    .statistic_subheading h5,
+    .scores li {
+        font-size: 12px;
+    }
+
+    .date span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .statistic_heading h4,
+    .statistic_subheading h5,
+    .scores li {
+        font-size: 10px;
+    }
+
+    .date,
+    .date span {
+        font-size: 10px;
+    }
+
+
+}

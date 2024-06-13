@@ -1,0 +1,36 @@
+.container-fluid {
+    /* border-bottom: 20px solid black;
+    border-radius: 15px;
+    overflow: hidden; */
+    background-color: #000;
+}
+
+.container-fluid>* {
+    background-color: #fff;
+}
+
+.dashboard-content {
+    background: #000;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.dashboard-content>div {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#root,
+#root>.container-fluid,
+#root>.container-fluid>.row,
+.dashboard-content>div {
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 576px) {
+    .dashboard-content {
+        padding: 15px 0;
+    }
+
+
+}

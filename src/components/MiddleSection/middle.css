@@ -1,0 +1,213 @@
+.middle_section {
+    padding: 20px;
+    background-color: #f7f9fc;
+}
+
+.middle_heading {
+    display: flex;
+    align-items: center;
+    color: #2e3a59;
+
+}
+
+.middle_heading h3 {
+    padding: 0px 25px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.middle_heading span {
+    font-size: 14px;
+}
+
+.menuBar {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.middle_heading a {
+    text-decoration: none;
+}
+
+.knowledge_section h5 {
+    padding: 30px 0px;
+    font-weight: bold;
+    color: #2e3a59;
+}
+
+.Knowledge_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.orderData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total_orders {
+    border-radius: 10px;
+    width: 100%;
+    padding: 40px 10px;
+    margin-right: 15px;
+}
+
+.totalColor {
+    background-color: #d6e0ff;
+}
+
+.totalColor span {
+    color: #3366ff;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.total_icon {
+    font-size: 2rem;
+    color: #3366ff;
+}
+
+.earningsColor {
+    background-color: #ffd6d9;
+
+}
+
+.earningsColor span {
+    font-weight: bold;
+    color: #ff333f;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.earnings_icon {
+    font-size: 2rem;
+    color: #ff333f;
+}
+
+.profitColor {
+    background-color: #ffead6;
+}
+
+.profitColor span {
+    font-weight: bold;
+    color: #ff9533;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.profit_icon {
+    font-size: 2rem;
+    color: #ff9533;
+}
+
+.order_subData {
+    display: flex;
+    align-items: center;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 1199px) {
+    .middle_section {
+        padding: 0px;
+    }
+
+    .menuBar {
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+
+    .middle_heading h3 {
+        margin-top: 5px;
+        padding: 0px 15px;
+        font-size: 16px;
+    }
+
+    .middle_heading span {
+        font-size: 12px;
+    }
+
+    .total_orders {
+        padding: 15px 7px;
+        font-size: 12px;
+    }
+
+    .total_icon,
+    .earnings_icon,
+    .profit_icon {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .menuBar {
+        font-size: 1rem;
+    }
+
+    .middle_heading h3 {
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+
+    .middle_heading span {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .total_orders {
+        padding: 15px 7px;
+        font-size: 10px;
+    }
+
+    .total_icon,
+    .earnings_icon,
+    .profit_icon {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .menuBar {
+        font-size: 14px;
+    }
+
+    .middle_heading h3 {
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+
+    .middle_heading span {
+        font-size: 8px;
+    }
+
+    .knowledge_section h5 {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+
+    .total_orders {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .Knowledge_cards {
+        flex-direction: column;
+    }
+
+    .total_orders {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #middle {
+        padding: 10px;
+    }
+}

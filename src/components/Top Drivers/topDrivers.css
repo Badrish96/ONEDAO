@@ -1,0 +1,187 @@
+p {
+    margin: 0;
+}
+
+.import_icon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.top_driverHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #2e3a59;
+}
+
+.top_driverHeading h5 {
+    font-weight: bold;
+}
+
+
+.driver_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.driver_img img {
+    width: 60px;
+    border-radius: 10px;
+    height: 60px;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.driver_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: #2e3a59;
+    margin-bottom: 5px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+}
+
+.driver_details p:nth-child(1) {
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.driver_details p {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.driver_income p {
+    font-size: 12px;
+}
+
+.driver_income p span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+    .driver_info {
+        padding: 5px;
+    }
+
+    .driver_img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .driver_details p:nth-child(1),
+    .driver_details p {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .driver_income p span {
+        font-size: 12px;
+    }
+
+    .driver_income p {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .driver_img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .driver_details p:nth-child(1),
+    .driver_details p {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .driver_income p span {
+        font-size: 12px;
+    }
+
+    .driver_income p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .icon {
+        font-size: 1.5rem;
+    }
+
+    .top_driverHeading h5 {
+        font-size: 12px;
+    }
+
+    .top_arrow {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .driver_img img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .driver_income p span {
+        font-size: 14px;
+    }
+
+    .import_icon {
+        position: fixed;
+        top: 8px;
+        right: 30px;
+    }
+
+    .driver_income p,
+    .driver_income span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .driver_info {
+        justify-content: unset;
+
+    }
+
+
+    .driver_img img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .driver_details p {
+        font-size: 16px;
+    }
+
+    .driver_img {
+        margin-right: 20px;
+    }
+
+    .import_icon {
+        top: 15px;
+        right: 15px;
+    }
+}

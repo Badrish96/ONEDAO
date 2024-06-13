@@ -1,0 +1,234 @@
+.col-2 {
+    padding: 0;
+}
+
+.menu {
+    background-color: #000;
+    color: #fff;
+    min-height: 100%;
+}
+
+.main_menu {
+    color: gray;
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+.user_image {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user img {
+    width: 60px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.users_info p:nth-child(2) {
+    color: gray;
+    font-size: 12px;
+}
+
+.menu_items a {
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.menu_items span {
+    font-size: 14px;
+}
+
+.icon_size {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.nav-item.active {
+    position: relative;
+}
+
+.nav-item.active a {
+    background-color: #fff;
+    color: #007bff !important;
+    border-radius: 20px 0 0 20px;
+}
+
+ul .active {
+    z-index: 3;
+}
+
+ul .active a {
+    background: white;
+    color: black;
+    border-radius: 20px 0 0 20px;
+}
+
+ul .active a:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: black;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: -50px;
+    border-radius: 25px;
+    z-index: 3;
+}
+
+ul .active a:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: black;
+    background: black;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    border-radius: 25px;
+    z-index: 3;
+}
+
+ul .active:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+
+ul .active:after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: white;
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .main_menu {
+        font-size: 14px;
+    }
+
+    .user img {
+        width: 40px;
+    }
+
+    .users_info p:nth-child(1) {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .users_info p:nth-child(2) {
+        margin-left: -15px;
+        font-size: 8px;
+    }
+
+    .icon_size {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    .menu_items span {
+        font-size: 12px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .users_info p:nth-child(2) {
+        margin-left: -20px;
+        font-size: 7px;
+    }
+
+    .users_info p:nth-child(1) {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .user img {
+        width: 15px;
+    }
+
+    .main_menu {
+        font-size: 12px;
+    }
+
+    .menu_items span {
+        font-size: 10px;
+    }
+
+    .user {
+        padding: 5px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .user {
+        padding: 10px 0px;
+    }
+
+    .user_image {
+        margin-right: 15px;
+    }
+
+    .users_info p:nth-child(2) {
+        margin-left: -20px;
+        font-size: 5px;
+    }
+
+    .users_info p:nth-child(1) {
+        padding: 0;
+        font-size: 7px;
+        margin-right: 15px;
+    }
+
+    .main_menu {
+        font-size: 10px;
+        margin: 5px -4px;
+    }
+
+    .menu_items span {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .menu {
+        min-width: 125px;
+    }
+
+
+
+}
